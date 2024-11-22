@@ -66,7 +66,7 @@ async def send_email_notification(message):
         logger.error(f"Ошибка отправки уведомления о транзакции {transaction_id}: {e}")
 ```
 
-## Получение сообщения из Kafka и отправка уведомлений"""
+## Получение сообщения из Kafka и отправка уведомлений
 ```Python
 async def consume_and_notify():
     async for message in consumer:
