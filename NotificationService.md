@@ -53,7 +53,6 @@ async def send_email_notification(message):
         Описание: {description}
         """
 
-
         yag = yagmail.SMTP("email@gmail.com", "password") 
 
         yag.send(to=["receiver_email@example.com"],  
